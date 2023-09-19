@@ -1,0 +1,34 @@
+.register {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  background-color: var(--subcolor);
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  outline-color: #7c7c7c10;
+  outline-style: none;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.btn-register {
+  padding: 20px;
+  background-color: white;
+  color: #000;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
